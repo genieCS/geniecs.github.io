@@ -52,185 +52,179 @@
 /******/ 	function promiseResolve() { return Promise.resolve(); }
 /******/
 /******/ 	var wasmImportObjects = {
-/******/ 		"./node_modules/wretris/wretris_bg.wasm": function() {
+/******/ 		"../pkg/wretris_bg.wasm": function() {
 /******/ 			return {
 /******/ 				"./wretris_bg.js": {
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_alert_fdf658d62310b696": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_alert_fdf658d62310b696"](p0i32,p1i32);
+/******/ 					"__wbg_alert_d2fd11c1a1976e06": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_alert_d2fd11c1a1976e06"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_cursive_new": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_cursive_new"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_cursive_new"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_new_abda76e883ba8a5f": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_new_abda76e883ba8a5f"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_new_abda76e883ba8a5f"]();
 /******/ 					},
 /******/ 					"__wbg_stack_658279fe44541cf6": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_stack_658279fe44541cf6"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_stack_658279fe44541cf6"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_error_f851667af71bcfc6": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_error_f851667af71bcfc6"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_error_f851667af71bcfc6"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_paint_a0878618a129a2b1": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_paint_a0878618a129a2b1"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_paint_a0878618a129a2b1"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_cb_drop": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_Window_9029196b662bc42a": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_instanceof_Window_9029196b662bc42a"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_instanceof_Window_9029196b662bc42a"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_document_f7ace2b956f30a4f": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_document_f7ace2b956f30a4f"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_document_f7ace2b956f30a4f"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_setTimeout_eb1a0d116c26d9f6": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_setTimeout_eb1a0d116c26d9f6"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_setTimeout_eb1a0d116c26d9f6"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getElementById_cc0e0d931b0d9a28": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_getElementById_cc0e0d931b0d9a28"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_getElementById_cc0e0d931b0d9a28"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_HtmlCanvasElement_da5f9efa0688cf6d": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_instanceof_HtmlCanvasElement_da5f9efa0688cf6d"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_width_2931aaedd21f1fff": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_width_2931aaedd21f1fff"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_instanceof_HtmlCanvasElement_da5f9efa0688cf6d"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_setwidth_a667a942dba6656e": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_setwidth_a667a942dba6656e"](p0i32,p1i32);
-/******/ 					},
-/******/ 					"__wbg_height_0d36fbbeb60b0661": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_height_0d36fbbeb60b0661"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_setwidth_a667a942dba6656e"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_setheight_a747d440760fe5aa": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_setheight_a747d440760fe5aa"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_setheight_a747d440760fe5aa"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_addEventListener_5651108fc3ffeb6e": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_addEventListener_5651108fc3ffeb6e"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_addEventListener_5651108fc3ffeb6e"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__wbg_log_1d3ae0273d8f4f8a": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_log_1d3ae0273d8f4f8a"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_log_1d3ae0273d8f4f8a"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_settitle_8e7b5cc7fffc5477": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_settitle_8e7b5cc7fffc5477"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_settitle_8e7b5cc7fffc5477"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_keyCode_dfa86be31f5ef90c": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_keyCode_dfa86be31f5ef90c"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_keyCode_dfa86be31f5ef90c"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_crypto_c48a774b022d20ac": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_crypto_c48a774b022d20ac"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_crypto_c48a774b022d20ac"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_is_object": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_is_object"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_is_object"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_process_298734cf255a885d": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_process_298734cf255a885d"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_process_298734cf255a885d"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_versions_e2e78e134e3e5d01": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_versions_e2e78e134e3e5d01"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_versions_e2e78e134e3e5d01"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_node_1cd7a5d853dbea79": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_node_1cd7a5d853dbea79"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_node_1cd7a5d853dbea79"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_is_string": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_is_string"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_is_string"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_require_8f08ceecec0f4fee": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_require_8f08ceecec0f4fee"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_require_8f08ceecec0f4fee"]();
 /******/ 					},
 /******/ 					"__wbg_msCrypto_bcb970640f50a1e8": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_msCrypto_bcb970640f50a1e8"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_msCrypto_bcb970640f50a1e8"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_getRandomValues_37fa2ca9e4e07fab": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_getRandomValues_37fa2ca9e4e07fab"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_getRandomValues_37fa2ca9e4e07fab"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_randomFillSync_dc1e9a60c158336d": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_randomFillSync_dc1e9a60c158336d"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_randomFillSync_dc1e9a60c158336d"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_is_function": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_is_function"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_is_function"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_newnoargs_581967eacc0e2604": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_newnoargs_581967eacc0e2604"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_newnoargs_581967eacc0e2604"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_call_cb65541d95d71282": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_call_cb65541d95d71282"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_call_cb65541d95d71282"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_self_1ff1d729e9aae938": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_self_1ff1d729e9aae938"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_self_1ff1d729e9aae938"]();
 /******/ 					},
 /******/ 					"__wbg_window_5f4faef6c12b79ec": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_window_5f4faef6c12b79ec"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_window_5f4faef6c12b79ec"]();
 /******/ 					},
 /******/ 					"__wbg_globalThis_1d39714405582d3c": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_globalThis_1d39714405582d3c"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_globalThis_1d39714405582d3c"]();
 /******/ 					},
 /******/ 					"__wbg_global_651f05c6a0944d1c": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_global_651f05c6a0944d1c"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_global_651f05c6a0944d1c"]();
 /******/ 					},
 /******/ 					"__wbindgen_is_undefined": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_call_01734de55d61e11d": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_call_01734de55d61e11d"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_call_01734de55d61e11d"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_now_9c5990bda04c7e53": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_now_9c5990bda04c7e53"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_now_9c5990bda04c7e53"]();
 /******/ 					},
 /******/ 					"__wbg_new_43f1b47c28813cbd": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_new_43f1b47c28813cbd"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_new_43f1b47c28813cbd"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_resolve_53698b95aaf7fcf8": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_resolve_53698b95aaf7fcf8"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_resolve_53698b95aaf7fcf8"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_then_f7e06ee3c11698eb": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_then_f7e06ee3c11698eb"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_then_f7e06ee3c11698eb"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_then_b2267541e2a73865": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_then_b2267541e2a73865"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_then_b2267541e2a73865"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_buffer_085ec1f694018c4f": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_buffer_085ec1f694018c4f"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_buffer_085ec1f694018c4f"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_newwithbyteoffsetandlength_6da8e527659b86aa": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_newwithbyteoffsetandlength_6da8e527659b86aa"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_newwithbyteoffsetandlength_6da8e527659b86aa"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_new_8125e318e6245eed": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_new_8125e318e6245eed"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_new_8125e318e6245eed"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_set_5cf90238115182c3": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_set_5cf90238115182c3"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_set_5cf90238115182c3"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_newwithlength_e5d69174d6984cd7": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_newwithlength_e5d69174d6984cd7"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_newwithlength_e5d69174d6984cd7"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_subarray_13db269f57aa838d": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbg_subarray_13db269f57aa838d"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbg_subarray_13db269f57aa838d"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_debug_string": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_memory": function() {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_memory"]();
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					},
 /******/ 					"__wbindgen_closure_wrapper356": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_closure_wrapper356"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_closure_wrapper356"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbindgen_closure_wrapper825": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_closure_wrapper825"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_closure_wrapper825"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbindgen_closure_wrapper867": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/wretris/wretris_bg.js"].exports["__wbindgen_closure_wrapper867"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/wretris_bg.js"].exports["__wbindgen_closure_wrapper867"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -323,7 +317,7 @@
 /******/
 /******/ 		// Fetch + compile chunk loading for webassembly
 /******/
-/******/ 		var wasmModules = {"0":["./node_modules/wretris/wretris_bg.wasm"]}[chunkId] || [];
+/******/ 		var wasmModules = {"0":["../pkg/wretris_bg.wasm"]}[chunkId] || [];
 /******/
 /******/ 		wasmModules.forEach(function(wasmModuleId) {
 /******/ 			var installedWasmModuleData = installedWasmModules[wasmModuleId];
@@ -333,7 +327,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"./node_modules/wretris/wretris_bg.wasm":"866e20d3b66df90b379a"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/wretris_bg.wasm":"0803698741685f9609a2"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
@@ -434,7 +428,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// A dependency graph that contains any wasm must all be imported\n// asynchronously. This `bootstrap.js` file does the single async import, so\n// that no one else needs to worry about it again.\nPromise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ./index.js */ \"./index.js\"))\n  .catch(e => console.error(\"Error importing `index.js`:\", e));\n\n\n//# sourceURL=webpack:///./bootstrap.js?");
+eval("// A dependency graph that contains any wasm must all be imported\n// asynchronously. This `bootstrap.js` file does the single async import, so\n// that no one else needs to worry about it again.\n__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./index.js */ \"./index.js\"))\n  .catch(e => console.error(\"Error importing `index.js`:\", e));\n\n\n//# sourceURL=webpack:///./bootstrap.js?");
 
 /***/ })
 
